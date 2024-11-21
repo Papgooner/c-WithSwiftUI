@@ -15,7 +15,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text(String(cString: test()))
-            Button(action: {number = number + 1}, label: {Text("Add one")})
+            Button(action: {number = Int(addOneToNumber(Int32(number)))}, label: {Text("Add one")})
             Text(String(number))
         }
         .padding()

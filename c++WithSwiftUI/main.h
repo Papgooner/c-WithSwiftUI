@@ -11,7 +11,7 @@ extern "C"
 #endif
 
 const char* test();
-int getNumber(int value);
+int addOneToNumber(int value);
 
 #ifdef __cplusplus
 }

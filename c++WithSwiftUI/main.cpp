@@ -10,12 +10,11 @@
 using namespace std;
 const char* test()
 {
-    static std::vector<std::string> cars = {"sdgsd"};
+    static std::vector<std::string> cars = {"I live in main.cpp"};
     return cars[0].c_str();
 }
 
 
-int getNumber(int value) {
-
+int addOneToNumber(int value) {
     return value + 1;
 }
